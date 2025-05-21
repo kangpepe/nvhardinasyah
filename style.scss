@@ -283,6 +283,116 @@ footer {
   text-align: center;
 }
 
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+        .header img {
+            max-height: 80px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #0066cc;
+            font-size: 24px;
+        }
+        .header p {
+            margin: 5px 0 0;
+            color: #666;
+        }
+        .doc-info {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .doc-info p {
+            margin: 5px 0;
+        }
+        .signature-section {
+            margin-top: 30px;
+        }
+        .signature-box {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .signature-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .signature-item {
+            text-align: center;
+            width: 48%;
+        }
+        .signature-image {
+            height: 100px;
+            margin-bottom: 10px;
+            border: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .signature-name {
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .signature-position {
+            color: #666;
+            font-size: 14px;
+        }
+        .timestamp {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        .verification-info {
+            background-color: #f0f7ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background-color: #0055aa;
+        }
+
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
